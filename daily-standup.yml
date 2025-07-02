@@ -1,0 +1,21 @@
+name: 🗓️ Daily Stand-up
+description: Yesterday | Today | Blockers
+title: "Stand-up – {{date}}"
+labels: [standup]
+body:
+  - type: textarea
+    id: yday
+    attributes:
+      label: Yesterday
+      placeholder: What did you complete?
+  - type: textarea
+    id: today
+    attributes:
+      label: Today
+      placeholder: What will you work on?
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers
+      placeholder: Any issues I should help with?
+
